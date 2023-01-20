@@ -15,7 +15,7 @@ buttonRegistrar.addEventListener("click", add)
 //Criar variável pra armazenar objeto data
 //Objeto contém arrays referentes a cada hábito
 //De acordo com a doc da biblioteca, declarar as datas que aparecem checked (formato mm-dd)
-const data = {
+/*const data = {
   run: ["01-01", "01-07", "01-08"],
 
   water: [
@@ -45,7 +45,7 @@ const data = {
   ],
 
   food: ["01-02", "01-03", "01-04", "01-05", "01-06", "01-07"],
-}
+}*/
 
 //com o objeto declarado acima, inserimos esses dados no form atraves da função .setData(data)
 nlwSetup.setData(data)
