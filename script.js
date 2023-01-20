@@ -20,8 +20,23 @@ function add() {
   //slice(0,5) | fatio essa informação pegando do indice 0 até a indice que ele não quer mais pegar
   const today = new Date().toLocaleDateString("pt-br").slice(0, 5)
 
+  //Criar uma variável pra armazenar se a data já foi inserida
+  const dayExists = nlwSetup.dayExists(today)
+
+  //Condicional. Se o dia já existir exibe um alert infoamndo
+  //Para a execução do código ali
+  if (dayExists) {
+    //Exibir um alert informando que esse dia já foi inserido
+    alert("Essa data já foi inserida ❌")
+    // Trava a execução do código e não permite inserir a data
+    return
+  }
+
+  //Caso o dia ainda não tenha sido inserido
   //Usando a biblioteca vamos inserir today no form
   nlwSetup.addDay(today)
+  //Exibir um alert informando que esse dia pode ser inserido
+  alert("Data inserida com sucesso! ✔")
 }
 
 //Criar variável pra armazenar objeto data
