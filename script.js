@@ -12,6 +12,9 @@ const buttonRegistrar = document.querySelector("header button")
 //Escutando esse botão - Ao clicar dispara a função add() pra incluir o dia de hoje
 buttonRegistrar.addEventListener("click", add)
 
+//Escutando o form - caso haja mudança disparar a função save
+form.addEventListener("change", save)
+
 //Função a ser disparada pós clique no botão
 function add() {
   //const today = | Criar variável pra armazenar o dia de hoje
@@ -37,6 +40,15 @@ function add() {
   nlwSetup.addDay(today)
   //Exibir um alert informando que esse dia pode ser inserido
   alert("Data inserida com sucesso! ✔")
+}
+
+//Função a ser disparada caso haja mudança no form
+function save() {
+  //localStorage | Guardar os dados na memória local do browser
+  //Assim, caso seja o browser seja reiniciado trará a informação que existia antes
+  //.setItem('chave', transforma o json em string (dado pego pela biblioteca))
+  localStorage.setItem("romulofrontend", JSON.stringify(nlwSetup.data))
+  
 }
 
 //Criar variável pra armazenar objeto data
