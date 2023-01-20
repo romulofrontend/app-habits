@@ -46,6 +46,7 @@ button {
   padding: 0;
   gap: 32px;
   padding: 185px 48px 48px;
+  width: fit-content;
 }
 
 .habits {
