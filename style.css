@@ -15,6 +15,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 48px;
+  position: fixed;
+  background-color: #09090a;
+  width: 100vw;
 }
 
 button {
@@ -42,8 +45,7 @@ button {
   align-items: flex-end;
   padding: 0;
   gap: 32px;
-  position: absolute;
-  padding: 0 48px;
+  padding: 185px 48px 48px;
 }
 
 .habits {
