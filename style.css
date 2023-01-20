@@ -106,3 +106,9 @@ input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
 }
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
