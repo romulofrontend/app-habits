@@ -12,6 +12,18 @@ const buttonRegistrar = document.querySelector("header button")
 //Escutando esse botão - Ao clicar dispara a função add() pra incluir o dia de hoje
 buttonRegistrar.addEventListener("click", add)
 
+//Função a ser disparada pós clique no botão
+function add() {
+  //const today = | Criar variável pra armazenar o dia de hoje
+  //new Date() | Método disponível no browser que retorna a data de hoje
+  //.toLocaleDateString("pt-br") | Transforma o dado para String e com a data no formato Brasil
+  //slice(0,5) | fatio essa informação pegando do indice 0 até a indice que ele não quer mais pegar
+  const today = new Date().toLocaleDateString("pt-br").slice(0, 5)
+
+  //Usando a biblioteca vamos inserir today no form
+  nlwSetup.addDay(today)
+}
+
 //Criar variável pra armazenar objeto data
 //Objeto contém arrays referentes a cada hábito
 //De acordo com a doc da biblioteca, declarar as datas que aparecem checked (formato mm-dd)
