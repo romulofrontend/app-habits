@@ -43,3 +43,6 @@ const data = {
 
 //com o objeto declarado acima, inserimos esses dados no form atraves da função .setData(data)
 nlwSetup.setData(data)
+
+//Após ter inserido os dados no form, agora lemos e renderizamos o form
+nlwSetup.load()
