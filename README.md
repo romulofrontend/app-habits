@@ -32,7 +32,7 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript (com uso de bibliotecas Javascript, armazenamento e resgate de dados em localStorage)
 - Git + Github
 - Figma
   <br>
