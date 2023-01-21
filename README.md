@@ -46,7 +46,7 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 O Habits é um app para rastrear hábitos.
 
-[Veja esse o Projeto Online](https://romulofrontend.github.io/nlw-setup)
+[Veja esse Projeto Online](https://romulofrontend.github.io/nlw-setup)
 
 <br>
 
