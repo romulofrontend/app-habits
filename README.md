@@ -1,7 +1,7 @@
 <h1 align="center"> Projeto Habits </h1>
 
 <p align="center">
-Desenvolvi esse projeto enquanto participava da Trilha Explorer da Imersão NLW Setup realizada pela RocketSeat com o instrutor Mayck Brito entre 16/01/2023 e 21/01/2023, ministrada pelo Mayck Brito<br/>
+Desenvolvi esse projeto enquanto participava da Trilha Explorer da Imersão NLW Setup realizada pela RocketSeat com o instrutor Mayck Brito entre 16/01/2023 e 21/01/2023<br/>
 </p>
 
 <p align="center">
