@@ -47,44 +47,17 @@ function save() {
   //localStorage | Guardar os dados na memória local do browser
   //Assim, caso seja o browser seja reiniciado trará a informação que existia antes
   //.setItem('chave', transforma o json em string (dado pego pela biblioteca))
+  //Assim esse dado fica setado no localStorage atraves da chave e o valor
   localStorage.setItem("romulofrontend", JSON.stringify(nlwSetup.data))
-  
 }
 
-//Criar variável pra armazenar objeto data
-//Objeto contém arrays referentes a cada hábito
-//De acordo com a doc da biblioteca, declarar as datas que aparecem checked (formato mm-dd)
-/*const data = {
-  run: ["01-01", "01-07", "01-08"],
-
-  water: [
-    "01-01",
-    "01-02",
-    "01-03",
-    "01-04",
-    "01-05",
-    "01-06",
-    "01-07",
-    "01-08",
-  ],
-
-  gym: ["01-02", "01-04", "01-06"],
-
-  sleep: ["01-01", "01-02", "01-03", "01-04", "01-05", "01-08"],
-
-  pets: [
-    "01-01",
-    "01-02",
-    "01-03",
-    "01-04",
-    "01-05",
-    "01-06",
-    "01-07",
-    "01-08",
-  ],
-
-  food: ["01-02", "01-03", "01-04", "01-05", "01-06", "01-07"],
-}*/
+//const data = | Criar variável pra armazenar data
+//JSON.parse() | Transforma novamente pra JSON aquilo que estiver como argumento
+//localStorage | No localStorage
+//getItem | vai pegar o item
+//("romulofrontend") | que foi setado na chave definida
+//Caso não tenha nada vai atribuir um objeto vazio, assim não dá erro
+const data = JSON.parse(localStorage.getItem("romulofrontend")) || {}
 
 //com o objeto declarado acima, inserimos esses dados no form atraves da função .setData(data)
 nlwSetup.setData(data)
