@@ -1,7 +1,11 @@
 <h1 align="center"> Projeto Habits </h1>
 
 <p align="center">
+<<<<<<< HEAD
 Desenvolvi esse projeto de marcador de hábitos diários enquanto participava da Trilha Explorer da Imersão NLW Setup realizada pela RocketSeat com o instrutor Mayck Brito entre 16/01/2023 e 21/01/2023, ministrada pelo Mayck Brito<br/>
+=======
+Desenvolvi esse projeto enquanto participava da Trilha Explorer da Imersão NLW Setup realizada pela RocketSeat com o instrutor Mayck Brito entre 16/01/2023 e 21/01/2023<br/>
+>>>>>>> 41a46f5e6947916dca19019b7a9b324e8a55c47e
 </p>
 
 <p align="center">
@@ -32,7 +36,11 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 - HTML
 - CSS
+<<<<<<< HEAD
 - JavaScript (fazendo uso de bibliotecas, além de armazenar e regstar dados do browser através de localStorage)
+=======
+- JavaScript (com uso de bibliotecas Javascript, armazenamento e resgate de dados em localStorage)
+>>>>>>> 41a46f5e6947916dca19019b7a9b324e8a55c47e
 - Git + Github
 - Figma
   <br>
@@ -46,7 +54,7 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 O Habits é um app para marcador hábitos diário.
 
-[Veja esse o Projeto Online](https://romulofrontend.github.io/nlw-setup)
+[Veja esse Projeto Online](https://romulofrontend.github.io/nlw-setup)
 
 <br>
 
