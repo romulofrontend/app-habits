@@ -1,7 +1,7 @@
 <h1 align="center"> Projeto Habits </h1>
 
 <p align="center">
-Desenvolvi esse projeto enquanto participava da Trilha Explorer da Imersão NLW Setup realizada pela RocketSeat com o instrutor Mayck Brito entre 16/01/2023 e 21/01/2023, ministrada pelo Mayck Brito<br/>
+Desenvolvi esse projeto de marcador de hábitos diários enquanto participava da Trilha Explorer da Imersão NLW Setup realizada pela RocketSeat com o instrutor Mayck Brito entre 16/01/2023 e 21/01/2023, ministrada pelo Mayck Brito<br/>
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 - HTML
 - CSS
-- JavaScript
+- JavaScript (fazendo uso de bibliotecas, além de armazenar e regstar dados do browser através de localStorage)
 - Git + Github
 - Figma
   <br>
@@ -44,7 +44,7 @@ Projeto desenvolvido com as tecnologias abaixo:
 
 ## 💻 Projeto
 
-O Habits é um app para rastrear hábitos.
+O Habits é um app para marcador hábitos diário.
 
 [Veja esse o Projeto Online](https://romulofrontend.github.io/nlw-setup)
 
@@ -77,4 +77,5 @@ Esse projeto está sob a licença MIT.
 ROMULO ROSA<br>
 Desenvolvedor Web Front-End<br>
 
-[linkedIn](https://www.linked.com/in/romulofrontend) | [github](https://www.github.com/romulofrontend)
+[linkedIn](https://www.linked.com/in/romulofrontend)<br>
+[github](https://www.github.com/romulofrontend)
